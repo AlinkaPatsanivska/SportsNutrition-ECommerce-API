@@ -4,3 +4,14 @@ GET {{ECommerceApp_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+### Додати новий протеїн у базу
+POST http://localhost:5224/api/products
+Content-Type: application/json
+
+{
+  "name": "Whey Protein Gold Standard",
+  "description": "Найкращий протеїн для росту м'язів",
+  "price": 1450.50,
+  "stockQuantity": 20
+}
