@@ -13,5 +13,9 @@ Content-Type: application/json
   "name": "Whey Protein Gold Standard",
   "description": "Найкращий протеїн для росту м'язів",
   "price": 1450.50,
-  "stockQuantity": 20
+  "stockQuantity": 20,
+  "category": {
+    "name": "Протеїни",
+    "description": "Добавки з високим вмістом білка"
+  }
 }
